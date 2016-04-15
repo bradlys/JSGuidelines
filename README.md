@@ -251,7 +251,7 @@ var c = 3;
 
 Declare variables as close as possible to when they'll get a value. Try to avoid declaring variables with no value. JavaScript automatically hoists the variables to top of scope anyway. Try to avoid declaring a variable twice (e.g. multiple var i = 0's because of for loops). Ideally, we'd be using let with ES6 but that's not the world we live in.
 
-```
+```javascript
 // bad
 function() {
     var i;
