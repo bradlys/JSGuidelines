@@ -265,7 +265,7 @@ function() {
         specialMultiplier = specialFunc();
         for (i = 0; i < thing2.length; i++) {
             for (j = 0; j < thing2.length; j++) {
-                sum += thing2[i][j];
+                sum += thing2[i][j] * specialMultiplier;
             }
         }
     }
