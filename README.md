@@ -325,7 +325,7 @@ function() {
 
 [Airbnb - Objects](https://github.com/airbnb/javascript/blob/master/es5/README.md#objects)
 
-There is a specific declaration style that we use for objects. If the declaration is short (less than 4 properties and fits on a 80 character line), go for it. If it doesn't, each property gets its own line. No whitespace after property name, single whitespace after colon. Single line declarations should have a space after the comma, a space after the first bracket and a space before the closing bracket. Multiline declarations should have the first bracket on the variable assignment line by itself and the closing bracket on its own line with the semicolon at the same indentation level as the variable assignment. Properties should be indented one level. Properties should also be alphabetically declared. Avoid declaring functions inline for properties. If it must be done, all non-function declaring properties go first (alphabetically) and then all function declaring properties go last (alphabetically).
+There is a specific declaration style that we use for objects. If the declaration is short (less than 4 properties and fits on a 80 character line), go for it. If it doesn't, each property gets its own line. No whitespace after property name, single whitespace after colon. Single line declarations should have a space after the comma. Multiline declarations should have the first bracket on the variable assignment line and the closing bracket on its own line with the semicolon at the same indentation level as the variable assignment (similar to if, while, etc.). Properties should be indented one level. Properties should also be alphabetically declared. Avoid declaring functions inline for properties. If it must be done, all non-function declaring properties go first (alphabetically) and then all function declaring properties go last (alphabetically).
 ```javascript
 // bad
 var myObj = {thing1:'rara',thing3:'yadda', thing2:'blahblh',thing4:'whaaaaaaaaaaaaaaaaaaaaaaaaaat'};
@@ -338,8 +338,9 @@ var myObj = {
     thing4: 'whaaaaaaaaaaaaaaaaaaaaaaaaaat'
 };
 
-//good
-var myObj = { howdy: 'partner', whaaaat: 'isthisfeeling' };
+// good, spacing doesn't matter too much. Although, please be consistent. Prefer first line style.
+var myObj = {howdy: 'partner', whaaaat: 'isthisfeeling'};
+var myObj = { howdy: 'partner', whaaat: 'isthisfeeling' };
 
 // bad
 var myObj = {
