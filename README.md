@@ -101,7 +101,7 @@ function test() {
 }
 
 // bad
-dog.set('attr',{.
+dog.set('attr', {.
     age: '1 year',.
     breed: 'Bernese Mountain Dog'
 });
@@ -113,7 +113,7 @@ dog.set('attr', {
 });
 ```
 
-Place 1 space before the opening paranthesis in control statements (if, white, etc.). Place no space before the argument list in function calls and declarations.
+Place 1 space before the opening paranthesis in control statements (if, while, etc.). Place no space before the argument list in function calls and declarations.
 
 ```javascript
 // bad
