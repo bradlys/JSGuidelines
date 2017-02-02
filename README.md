@@ -28,7 +28,7 @@
 
 ## Overview
 
-The goal of this style guide is to enhance the readability and debugging ability of JavaScript codebases. Good reading in prep for this style guide would be the [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml) and the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/blob/master/es5/README.md) as both are the basis for this style guide. Inside this guide, you will find links to other style guides. This means that you should follow what they say unless otherwise specificed in this guide.
+The goal of this style guide is to enhance the readability and debugging ability of JavaScript codebases. Good reading in prep for this style guide would be the [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml) and the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md) as both are the basis for this style guide. Inside this guide, you will find links to other style guides. This means that you should follow what they say unless otherwise specificed in this guide.
 
 ## Spacing
 
@@ -315,7 +315,7 @@ function() {
 
 ## Types
 
-[Airbnb - Types](https://github.com/airbnb/javascript/blob/master/es5/README.md#types)
+[Airbnb - Types](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#types)
 
 ## Constants
 
@@ -323,7 +323,7 @@ function() {
 
 ## Objects
 
-[Airbnb - Objects](https://github.com/airbnb/javascript/blob/master/es5/README.md#objects)
+[Airbnb - Objects](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#objects)
 
 There is a specific declaration style that we use for objects. If the declaration is short (less than 4 properties and fits on a 80 character line), go for it. If it doesn't, each property gets its own line. No whitespace after property name, single whitespace after colon. Single line declarations should have a space after the comma. Multiline declarations should have the first bracket on the variable assignment line and the closing bracket on its own line with the semicolon at the same indentation level as the variable assignment (similar to if, while, etc.). Properties should be indented one level. Properties should also be alphabetically declared. Avoid declaring functions inline for properties. If it must be done, all non-function declaring properties go first (alphabetically) and then all function declaring properties go last (alphabetically).
 ```javascript
@@ -399,60 +399,60 @@ var myObj = {
 
 ## Arrays
 
-[Airbnb - Arrays](https://github.com/airbnb/javascript/blob/master/es5/README.md#arrays)
+[Airbnb - Arrays](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#arrays)
 
 ## Strings
 
-[Airbnb - Strings](https://github.com/airbnb/javascript/blob/master/es5/README.md#strings)
+[Airbnb - Strings](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#strings)
 
 ## Functions
 
-[Airbnb - Functions](https://github.com/airbnb/javascript/blob/master/es5/README.md#functions)
+[Airbnb - Functions](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#functions)
 
 ## Properties
 
-[Airbnb - Properties](https://github.com/airbnb/javascript/blob/master/es5/README.md#properties)
+[Airbnb - Properties](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#properties)
 
 ## Comparison Operators & Equality
 
-[Airbnb - Comparison Operators & Equality](https://github.com/airbnb/javascript/blob/master/es5/README.md#comparison-operators--equality)
+[Airbnb - Comparison Operators & Equality](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#comparison-operators--equality)
 
 ## Blocks
 
-[Airbnb - Blocks](https://github.com/airbnb/javascript/blob/master/es5/README.md#blocks)
+[Airbnb - Blocks](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#blocks)
 
 ## Comments
 
-[Airbnb - Comments](https://github.com/airbnb/javascript/blob/master/es5/README.md#comments)
+[Airbnb - Comments](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#comments)  
 [Google - Comments](https://google.github.io/styleguide/javascriptguide.xml#Comments)
 
 Use JSDoc.
 
 ## Commas
 
-[Airbnb - Commas](https://github.com/airbnb/javascript/blob/master/es5/README.md#commas)
+[Airbnb - Commas](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#commas)
 
 ## Semicolons
 
 Yes.
-[Airbnb - Semicolons](https://github.com/airbnb/javascript/blob/master/es5/README.md#semicolons)
+[Airbnb - Semicolons](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#semicolons)  
 [Google - Semicolons](https://google.github.io/styleguide/javascriptguide.xml?showone=Semicolons#Semicolons)
 
 ## Constructors
 
-[Airbnb - Constructors](https://github.com/airbnb/javascript/blob/master/es5/README.md#constructors)
+[Airbnb - Constructors](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#constructors)
 
 ## Accessors
 
-[Airbnb - Accessors](https://github.com/airbnb/javascript/blob/master/es5/README.md#accessors)
+[Airbnb - Accessors](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#accessors)
 
 ## Type Casting & Coercion
 
-[Airbnb - Type Casting & Coercion](https://github.com/airbnb/javascript/blob/master/es5/README.md#type-casting--coercion)
+[Airbnb - Type Casting & Coercion](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#type-casting--coercion)
 
 ## Naming Convention
 
-[Airbnb - Naming Convention](https://github.com/airbnb/javascript/blob/master/es5/README.md#naming-conventions)
+[Airbnb - Naming Convention](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#naming-conventions)
 
 Constants should be all capital letters and words separated by underscores. Include documentation for each constant.
 
@@ -467,16 +467,16 @@ var SUPERMAN_IS_BETTER_THAN_BATMAN = false;
 
 ## For-in loops
 
-Be careful and avoid these unless you know what you're doing.
+Be careful and avoid these unless you know what you're doing.  
 [Google - For-in loop](https://google.github.io/styleguide/javascriptguide.xml?showone=for-in_loop#for-in_loop)
 
 ## Events
 
-[Airbnb - Events](https://github.com/airbnb/javascript/blob/master/es5/README.md#events)
+[Airbnb - Events](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#events)
 
 ## jQuery
 
-[Airbnb - jQuery](https://github.com/airbnb/javascript/blob/master/es5/README.md#jquery)
+[Airbnb - jQuery](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#jquery)
 
 Prefer using constants for CSS Selectors. Although, this is not a hard rule.
 ```javascript
