@@ -434,7 +434,7 @@ Use JSDoc.
 
 ## Semicolons
 
-Yes.
+Yes.  
 [Airbnb - Semicolons](https://github.com/airbnb/javascript/tree/es5-deprecated/es5/README.md#semicolons)  
 [Google - Semicolons](https://google.github.io/styleguide/javascriptguide.xml?showone=Semicolons#Semicolons)
 
